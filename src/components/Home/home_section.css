@@ -1,0 +1,150 @@
+.section1 {
+  height: 700px;
+  /* margin-top: -10px; */
+  background: white;
+}
+
+.home_content {
+  position: relative;
+  z-index: 1;
+  width: 40%;
+
+  margin-left: 68px;
+  padding: 38px;
+}
+.home_title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 94px;
+  letter-spacing: -0.01em;
+  left: 190px;
+  top: 232px;
+}
+.home_information1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  letter-spacing: -0.01em;
+  left: 190px;
+  top: 232px;
+  color: black;
+}
+
+.home_section1image {
+  z-index: 0;
+
+  position: absolute;
+  width: 540.61px;
+  height: 462px;
+  right: 100px;
+  top: 212px;
+}
+
+.btninside {
+  font-weight: 600;
+  font-size: 16px;
+  height: 45px;
+  width: 180px;
+  color: black;
+  background: #ffc100;
+  border: 0px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.home_Intro {
+  /* margin: 2px; */
+  position: relative;
+  top: 50px;
+  height: 22rem;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  background: url("../../assets/background_img.svg") no-repeat;
+  background-size: cover;
+}
+.Intro-1 {
+  padding: 30px;
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: justify;
+}
+
+.Intro-item {
+  margin: 25px;
+  margin-top: 4rem;
+  width: 45%;
+  justify-content: space-evenly;
+}
+.Intro-2 {
+  font-family: "Heebo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 59px;
+  text-align: right;
+
+  color: #000000;
+}
+@media only screen and (max-width: 1155px) {
+  .home_content {
+    width: 48%;
+  }
+  .home_title {
+    font-size: 48px;
+  }
+  .btninside {
+    position: static;
+  }
+  .home_section1image {
+    opacity: 0.4;
+  }
+}
+@media only screen and (max-width: 915px) {
+  .home_Intro {
+    padding: 0px;
+    margin: 0px;
+  }
+  .Intro-item {
+    width: 100%;
+    text-align: center;
+
+    margin: 0px;
+  }
+  .Intro-2 {
+    background-color: #ffc100;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .Intro-1 .Intro-Content {
+    background-color: #ffc100;
+    margin: 0px;
+  }
+}
+@media only screen and (max-width: 1155px) {
+  .home_content {
+    text-align: -webkit-center;
+    left: 0px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .home_section1image {
+    opacity: 0.4;
+    right: 0px;
+  }
+}
+@media all and (max-width: 566px) {
+  .home_content {
+    text-align: -webkit-center;
+    left: 0px;
+    margin: 0px;
+    width: 75%;
+  }
+}

@@ -1,0 +1,66 @@
+
+.Team_Title{
+    text-align: center;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 70px;
+    
+    color:black;
+}
+.Team_head{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.Team_Item{
+    margin: 30px;
+}
+.Team_Item_1 img{
+  width: 100%;
+}
+.Team_Descript{
+    margin: 20px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+
+    color: #000000;
+}
+.Team_Descript_1{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+
+    color: #000000;
+}
+.Team_row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.Team_container {
+    margin: 50px;
+}
+.Team_col{
+    margin: 20px;
+    width: 265px;
+    margin-right: 34px;
+    margin-left: 42px;
+}
+@media only screen and  (max-width:661px) {
+    .Team_row{
+        
+    width: 100%;
+    margin: 0px;
+    margin-bottom: 20px;
+        
+    }
+}

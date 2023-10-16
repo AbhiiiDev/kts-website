@@ -1,0 +1,65 @@
+.Team_card{
+    background: #FFFFFF;
+    border-radius: 12px;
+    text-align: center;
+   
+    }
+    .Team_card-title{
+      margin: 24px;
+        font-family: 'Heebo';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 29px;
+      text-align: center;
+      position: relative;
+      top: 14px;
+      color:black;
+    }
+    
+    .Team_card:hover {
+        box-shadow: 5px 10px 20px 1px rgba(255, 255, 255, 0.273) !important;
+        transition: all 0.7s linear;
+      }
+      
+    .Team_card-body {
+        padding: 2rem 0 !important;
+        border: 2px solid black;
+        border-radius: 20px;
+      }
+      
+    .Team_card-text {
+        /* padding: 0.3rem 3rem; */
+        font-size: 1rem;
+        text-align: center;
+      }
+      
+    .Team_cardwidth img {
+        padding: 0.3rem 1rem;
+        font-size: 1rem;
+       
+    }
+    .Team_social_id a {
+      margin: 5px;
+    }
+     
+    .Team_btn:hover{
+      transform: scale(1.3);
+      cursor: pointer;
+    }
+      .Team_card-img-top {
+        width: 138px;
+        height: 138px;
+        border:2px solid #ff9a00;
+        border-radius: 50%;
+        position: relative;
+        top: 55px;
+        transform: scale(1.0);
+        transition: transform 0.2s ease-in-out;
+      }
+      
+      .Team_card-img-top:hover {
+        border-radius: 50%;
+        transform: scale(1.17);
+      }
+      

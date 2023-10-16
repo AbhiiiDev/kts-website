@@ -1,0 +1,92 @@
+.box {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+}
+.box1 {
+  margin-left: 30%;
+}
+.he {
+  font-size: 40px;
+  width: 200%;
+}
+.tex {
+  width: 280%;
+  margin-top: -23px;
+  font-size: 20px;
+}
+.box1 img {
+  height: 200px;
+  margin-top: 30px;
+  width: 250%;
+}
+.box2 {
+  margin-left: 60%;
+  margin-top: 27%;
+  line-height: 35px;
+}
+
+.box2 p {
+  width: 80px;
+}
+
+.bord {
+  width: 430%;
+  height: 38px;
+  border-radius: 10px;
+}
+.second {
+  margin-left: 15%;
+  margin-top: 40px;
+}
+.bord1 {
+  height: 38px;
+  border-radius: 10px;
+  width: 72.5%;
+}
+.bord2 {
+  height: 130px;
+  border-radius: 10px;
+  width: 72.5%;
+}
+.btn {
+  margin-top: 20px;
+  margin-left: 55.3%;
+  height: 40px;
+  width: 18%;
+  border: 0px;
+  border-radius: 10px;
+  background-color: rgb(249, 202, 15);
+  font-weight: 700;
+  font-size: 17px;
+}
+textarea {
+  resize: none;
+}
+
+@media screen and (max-width: 992px) {
+  .box {
+    display: block;
+    width: 45%;
+  }
+  .bord {
+    width: 359%;
+  }
+  .box2 {
+    margin-left: 30%;
+  }
+  .box {
+    margin-left: -10px;
+  }
+  .second {
+    margin-left: 11%;
+  }
+}
+
+/* @media screen and (max-width: 360px) {
+
+
+.bord {
+        width: 275%;
+    }
+} */
