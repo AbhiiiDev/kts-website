@@ -17,10 +17,10 @@ const navLinks = [
     url: "/Contact",
   },
 
-  // {
-  //   display: "Projects",
-  //   url: "/Projects",
-  // },
+  {
+    display: "Recruitment",
+    url: "/Recruitment",
+  },
   {
     display: "Team",
     url: "/Team",

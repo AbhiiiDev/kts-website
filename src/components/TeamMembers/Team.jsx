@@ -51,17 +51,17 @@ const Team_Member = () => {
       linkdin: "https://www.linkedin.com/in/shivaag04/",
       insta: "https://www.instagram.com/s.h.i.v.a_04/",
     },
-    {
- //secretory
+//     {
+//  secretory
 
-      // id: 4,
-      // title: "Manav Verma",
-      // image: manav,
-      // text: "Founding Member",
-      // git: "#",
-      // linkdin: "https://www.linkedin.com/in/manav-verma-263761201/",
-      // insta: "https://www.instagram.com/manavv_verma/",
-    },
+//       id: 4,
+//       title: "Manav Verma",
+//       image: manav,
+//       text: "Founding Member",
+//       git: "#",
+//       linkdin: "https://www.linkedin.com/in/manav-verma-263761201/",
+//       insta: "https://www.instagram.com/manavv_verma/",
+//     },
     {
       id: 8,
       title: "Shivendu Mishra",
@@ -79,13 +79,6 @@ const Team_Member = () => {
       // git: "https://prayrit-srivastava.github.io/",
       // linkdin: "https://www.linkedin.com/in/prayrit-srivastava-b520111a3/",
       // insta: "https://www.instagram.com/___itzzprayrit/",
-    },
-    {
-
-//web dev lead
-     
-      
-     //sparsh 
     },
     {
  id: 8,
@@ -109,54 +102,9 @@ const Team_Member = () => {
       linkdin: "https://www.linkedin.com/in/shubhangi-rai/",
       insta: "https://www.instagram.com/shubhangi_raii/",
     },
-    {//DSA lead 
-
-
-      // id: 9,
-      // title: "Yash Srivastava",
-      // image: yash,
-      // text: "ML Lead",
-      // git: "https://github.com/Srivastava0109Yash",
-      // linkdin: "https://www.linkedin.com/in/yash-srivastava-b27025213/",
-      // insta: "#",
-    },
-    {
-     //shiva
-    },
-    {
-//CP LEAD
-
-
-
-      // id: 11,
-      // title: "Archit Srivastava",
-      // image: archit,
-      // text: "Event Management Lead",
-      // git: "https://github.com/archit1203",
-      // linkdin: "https://www.linkedin.com/in/archit1203/",
-      // insta: "https://www.instagram.com/archit.1203/",
-    },
-    {
-      //shubangi
-    },
-    {
-      // id: 13,
-      // title: "Paras Tiwari",
-      // image: paras,
-      // text: "Competitive Programming Lead",
-      // git: "#",
-      // linkdin: "https://www.linkedin.com/in/paras-tiwari-3a78a9212/",
-      // insta: "https://www.instagram.com/_paras_._tiwari_/",
-    },
-    {
-      // id: 14,
-      // title: "Suraj Gupta",
-      // image: suraj,
-      // text: "Opportunity Searching Lead",
-      // git: "#",
-      // linkdin: "https://www.linkedin.com/in/suraj-gupta-030b04210/",
-      // insta: "https://www.instagram.com/i.m.suraj.gupta/",
-    },
+  
+   
+  
   ];
 
   return (

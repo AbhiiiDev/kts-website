@@ -3,6 +3,7 @@ import "./Contact.css";
 
 import Img from "../../assets/mail.jpg";
 import Footer from "../Footer/Footer";
+import ContactImage from "../../assets/animation_lnxjnuja.mp4"
 
 function Contact() {
   return (
