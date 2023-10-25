@@ -66,7 +66,7 @@ domain:domainRef.current.value});
 
         <div className="border-b border-gray-900/10 pb-12">
         <h2 className="text-base font-semibold leading-7 text-white">
-          Waiting for you all Amigos!!!
+          Welcome Amigos!!!
           </h2>
          
           <div className="mt-10 flex flex-col gap-x-6 mx-auto max-w-screen-xl  ">
